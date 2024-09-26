@@ -10,7 +10,10 @@ Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`
 
 ```ruby
 tap "efossvold/tap"
-brew "<formula>"
+brew install extractor
+brew install ocenaudio
+brew install renamer
+brew install squoosh-desktop
 ```
 
 ## Documentation
