@@ -7,8 +7,6 @@ cask "squoosh-desktop" do
   desc "Multiplatform desktop app to optimize, resize, compress and convert your images"
   homepage "https://squoosh-desktop.vercel.app"
 
-  depends_on macos: ">= :catalina"
-
   app "Squoosh Desktop.app"
 
   zap trash: [

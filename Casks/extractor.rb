@@ -7,8 +7,6 @@ cask "extractor" do
   desc "Extract the contents of GOG installers"
   homepage "https://github.com/tomkidd/Extractor"
 
-  depends_on macos: ">= :monterey"
-
   app "Extractor.app"
 
   zap trash: [

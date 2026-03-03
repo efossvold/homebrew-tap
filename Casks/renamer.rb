@@ -16,8 +16,6 @@ cask "renamer" do
     strategy :sparkle, &:short_version
   end
 
-  depends_on macos: ">= :monterey"
-
   app "Renamer.app"
 
   zap trash: [
